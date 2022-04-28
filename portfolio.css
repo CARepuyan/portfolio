@@ -1,0 +1,97 @@
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: 'Dosis', sans-serif;
+}
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images_portfolio/profile.JPG');
+  min-height: 100%;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  background-color: #35B5AC ;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.card {
+  background-color: #35B5AC;
+  padding: 64px;
+  font-size: 30px;
+  text-align: center; 
+  border: 0px;
+}
+.container {
+  size: 20px;
+}
+.container img {
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  background-color: #35B5AC;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+input {
+  border: 1px solid #35B5AC;
+  padding: 16px;
+  width: 600px;
+
+}
+hr {
+  border: 1px solid #35B5AC;
+  opacity: 60%;
+}
+.content {
+  padding: 32px;
+  color: black;
+  margin-bottom: 64px;
+}
+.section p {
+  margin: 0;
+}
+
+.card a {
+  color: black;
+  padding: 2px;
+}
+.card-body {
+  animation: float 4s ease-in-out infinite;
+}
+.bi-github {
+  animation-delay: 1s;
+}
+.bi-linkedin{ 
+  animation-delay: 2s;
+}
+.bi-discord {
+  animation-delay: 3s;
+}
+.bi-envelope-open-fill {
+  animation-delay: 4s;
+}
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.card-footer {
+  font-size: 15px;
+  border: none;
+  background-color: #35B5AC;
+  padding: 0;
+}
